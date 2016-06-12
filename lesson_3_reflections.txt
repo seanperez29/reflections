@@ -1,0 +1,7 @@
+When would you want to use a remote repository rather than keeping all your work local?
+
+You would want to utilize a remote repository rather than keeping all your work local when
+you are working with a team and will have multiple people collaborating on one project.
+This will allow people to push changes to the remote repository and allow others to pull
+those changes to their local repositories. You can also collaborate with other GitHub
+users and choose to accept their changes or not.
