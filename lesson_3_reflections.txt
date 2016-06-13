@@ -18,3 +18,13 @@ What is the benefit of having a copy of the last known state of the remote
 stored locally?
 
 I believe the benefit lies in being able to compare your recent commits or changes against that copy. This is also beneficial if you are going offline and would like to fetch the recent state. This will allow you to view the log of those commits and being able to run git diff. Then you will be able to merge your local branch and the up-to-date remote copy when you like and fix any conflicts.
+
+
+How would you collaborate without using Git or GitHub?  What would be easier, and what would be harder?
+
+I couldn't imagine collaborating without using Git or GitHub. It is so easy and convenient. I would imagine that everything would have to be done over the other version control options as described earler such as Google Drive or DropBox. But Git and GitHub just seem to be so streamlined and focused on coding that it appears to really be the safest (in terms of protecting your local master branch), most organized, and most convenient option.
+
+
+When would you want to make changes in a separate branch rather than directly in master?  What benefits does each approach have?
+
+I believe that you would want to make changes in a separate branch rather than directly in master when you are performing experimental code or other changes or testing features that you would not want to immediately effect your master branch and working code. This way if something goes wrong or is incomplete you still have your master branch that is fully functional. You would want to stay on your master branch would make small changes or adding code that you can continue to build upon and commit. It is easier and more beneficial to make changes directly to the master when you are able to do so, otherwise making a branch is a smart choice.
