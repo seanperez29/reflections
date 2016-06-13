@@ -1,7 +1,20 @@
 When would you want to use a remote repository rather than keeping all your work local?
 
-You would want to utilize a remote repository rather than keeping all your work local when
-you are working with a team and will have multiple people collaborating on one project.
-This will allow people to push changes to the remote repository and allow others to pull
-those changes to their local repositories. You can also collaborate with other GitHub
-users and choose to accept their changes or not.
+You would want to utilize a remote repository rather than keeping all your work local when you are working with a team and will have multiple people collaborating on one project. This will allow people to push changes to the remote repository and allow others to pull those changes to their local repositories. You can also collaborate with other GitHub users and choose to accept their changes or not.
+
+
+Why might you want to always pull changes manually rather than having Git
+automatically stay up-to-date with your remote repository?
+
+YOu may want to always pull changes manually rather than having Git automatically stay up-to-date due to the fact that you may have many team member making push requests and committing changes to the remote that you are not yet ready to pull into your local project.
+
+
+Describe the differences between forks, clones, and branches.  When would you use one instead of another?
+
+Forks are a GitHub term and are only used on GitHub when you want to 'clone' someone else's project to utilize and make changes of your own. Clones are used to copy a remote repository to your own computer in order to make changes locally before pushing those changes back to the remote repository. Clones can also be performed locally but have not been covered in detail yet. Branches are performed on a project in order to experiment or add features preferably locally. 
+
+
+What is the benefit of having a copy of the last known state of the remote
+stored locally?
+
+I believe the benefit lies in being able to compare your recent commits or changes against that copy. This is also beneficial if you are going offline and would like to fetch the recent state. This will allow you to view the log of those commits and being able to run git diff. Then you will be able to merge your local branch and the up-to-date remote copy when you like and fix any conflicts.
